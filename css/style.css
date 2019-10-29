@@ -1,0 +1,321 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body
+{
+    margin: 0 auto;
+}
+.wrapper
+{
+    max-width: calc(1440px - 270px);
+    margin: 0 auto; 
+}
+.header-section{
+    background: url(../img/group-3_2019-10-29/group-3@2x.png);
+    object-fit: contain;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-container
+{
+   
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-bottom: 187px;
+}
+header-content
+{
+    text-align: center;
+}
+.logo{padding-top: 50px;}
+.header-content h1 
+{
+    max-width: 550px;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.25;  
+    color: #ffffff;
+}
+.header-content p 
+{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1;
+    color: #ffffff;
+    padding-top: 20px;
+}
+.header-content 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 86px;
+}
+.digital-market
+{
+    max-width: 352px;
+    position: absolute;
+    padding-top: 90px;
+}
+.digital-market img {width: 100%; object-fit: contain;}
+.card 
+{
+  max-width: 570px;
+  border-radius: 5px;
+  color:#000;
+  padding:40px 68px;
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+}
+.card .free
+{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    color: #4a4a4a;
+}
+.card .thank-you
+{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    color: #4a4a4a;
+    padding-top: 40px;
+}
+.card .Thank{
+    max-width: 433px;
+    font-family: Open Sans;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    color: #4a4a4a;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+.card button    
+{
+  border: solid 2px #1bc09b;
+  background-color: #1bc09b;
+  padding:17px 48px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1;
+
+  text-align: left;
+  color: #ffffff;
+}
+.new-market
+{
+    background-color: #fafafa;
+    padding:40px 0; 
+}
+.new-market p 
+{
+    max-width: 717px;
+    font-family: Open Sans;
+    font-size: 16px;
+    line-height: 1.63;
+    margin-left: auto;
+    color: #4a4a4a;
+}
+.what-include
+{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 78px;
+    padding-bottom: 100px;
+}
+.what-include h2 
+{
+    font-family: Open Sans;
+    font-size: 27px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    color: #4a4a4a;
+    padding-bottom: 36px;
+}
+.what-include p 
+{
+    max-width: 835px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.63;
+    margin: 0 auto;
+    text-align: center;
+    color: #4a4a4a;
+}
+.for-more
+{
+    background-color: #fafafa;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+}
+.for-more-content
+{
+    text-align: center;
+}
+.i-b 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+.for-more-content h3 
+{
+    font-family: Open Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1;
+    padding-bottom: 40px;
+    text-align: center;
+    color: #4a4a4a;
+}
+.i-b input[type="text"]
+{
+  max-width: 470px;
+  width: 100%;
+  border: solid 1px #e7e7e7;
+  background-color: #fafafa;
+  padding:16px 15px;
+  outline: none;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1;
+  color: #a9a9a9;
+}
+.i-b button 
+{
+  border: solid 2px #1bc09b;
+  border: none;
+  background-color: #1bc09b;
+  padding:20px 40px;
+  margin-left: 30px;
+  outline: none;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1;
+  text-align: left;
+  color: #ffffff;
+}
+.footer
+{
+  background-color:  #292828;
+  text-align: center;
+}
+.footer-content
+{
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.footer-logo img 
+{
+  object-fit: contain;
+  max-width: 200px;
+  width: 100%;
+}
+.footer-icon 
+{
+  padding:35px 0;
+  display: inline-block;
+  color: #e7e7e7;
+}
+.footer-icon i 
+{
+  padding-right: 43px;
+}
+.footer-icon i:nth-child(3)
+{
+  padding-right: 0;
+}
+.copy-write
+{
+  padding-top:30px ;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1;
+  color: #ffffff;
+}
+.footer-content hr 
+{
+  border-color: #515050;
+}
+@media screen and (max-width:1200px) and (min-width:768px)
+{
+    .wrapper
+    {
+        padding:0 40px;
+    }
+    .digital-market
+    {
+        display: none;
+    }
+    .header-content
+    {
+        flex-direction: column; 
+    }
+    .head-cont, .card{
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+    .new-market p{margin: 0 auto;}
+}
+@media screen and (max-width:767px) and (min-width:320px)
+{
+    .wrapper
+    {
+        padding:0 15px;
+    }
+    .header-container
+    {
+        padding-bottom: 100px;
+    }
+    .header-content
+    {
+        padding-top: 40px;
+    }
+    .header-content h1{font-size: 30px;max-width: 470px;}
+    .digital-market
+    {
+        display: none;
+    }
+    .what-include{padding:50px 0;}
+    .header-content
+    {
+        flex-direction: column; 
+    }
+    .head-cont{
+        margin: 0 auto;
+        padding-bottom: 40px;
+    }
+    .new-market p{margin: 0 auto;}
+    .i-b {
+        display: block;
+    }
+    .for-more-content h3{line-height: normal;}
+    .card .thank-you{padding-top: 30px;}
+    .card .Thank{padding-bottom: 30px;}
+    .card{padding:30px;margin: 0 auto;}
+    .i-b input[type="text"]{font-size: 12px;}
+    .i-b button{margin-top: 30px; margin-left: 0;}
+    .card button, .i-b button {padding:15px 30px; font-size: 12px;}
+    .card .free{padding-top: 0;}
+}
